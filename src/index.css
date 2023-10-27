@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.App{
+    width: 25rem;
+}
+
+.AddTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+
+}
+
+.AddTodo input[type=text]{
+    flex: 2;
+}
+
+.AddTodo input[type=submit]{
+    flex: 1;
+}
+
+
+.Todo{
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: .5rem;
+    margin: .5rem;
+    font-size: 1.5rem;
+
+}
+
+.Todo input[type=checkbox]{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.Todo button{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.title.done{
+    text-decoration: line-through;
+}
